@@ -9,10 +9,10 @@ s.requires_arc = true
 s.source = { :path => '.' }
 
 # 2
-s.version = "0.1.0"
+s.version = "0.1.1"
 
 # 3
-# s.license = { :type => "MIT", :file => "LICENSE" }
+s.license = { :type => "MIT", :file => "LICENSE" }
 
 # 4 - Replace with your name and e-mail address
 # s.author = { "[Your Name Goes Here]" => "[Your_Email@Your_Email_Domain.com]" }
@@ -25,11 +25,11 @@ s.author = { "Joshua Greene" => "jrg.developer@gmail.com" }
 # s.homepage = "[Your RWPickFlavor Homepage URL Goes Here]"
 
 # For example,
-s.homepage = "https://github.com/JRG-Developer/RWPickFlavor"
+s.homepage = "https://github.com/rafalur/FancyFramework"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :path => '.' }
+s.source = { :git => "git://github.com/rafalur/FancyFramework.git", :tag => "#{s.version}"}
 
 # 7
 s.framework = "UIKit"
@@ -38,5 +38,5 @@ s.framework = "UIKit"
 s.source_files = "FancyFramework", "FancyFramework/**/*.{h,m,swift}"
 
 # 9
-s.resources = "FancyFramework/**/*.{png,jpeg,jpg,storyboard,xib}"
+# s.resources = "FancyFramework/**/*.{png,jpeg,jpg,storyboard,xib}"
 end

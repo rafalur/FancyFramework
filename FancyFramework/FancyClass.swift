@@ -10,4 +10,5 @@ import Foundation
 
 public class FancyClass: NSObject {
     public var fancyProperty: Int = 22
+    public var anotherFancyProperty: Bool = true
 }
